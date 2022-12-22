@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Roboto&display=swap');
+
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: 'Exo', sans-serif;
+  background-color: azure;
+  text-align: center;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #0077FF #DFE9EB;
+}
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+  width: 10px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 7px;
+  background-color: #DFE9EB;
+  border: 2px solid #FFFFFF;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #B8C0C2;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #B8C0C2;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #0077FF;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #00DDFF;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #00DDFF;
+}
+
+td {
+  text-align: center;
+  font-size: 14px;
+  min-width: 80px;
+}
+.table-row {
+  border-top: 2px solid rgb(0, 174, 255);
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-self: center;
+  margin: 0 20px;
+  border: 2px solid rgb(0, 204, 255);
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(228, 241, 255);
+  -webkit-box-shadow: 0px 0px 8px 4px rgba(133, 217, 255, 0.38);
+  -moz-box-shadow: 0px 0px 8px 4px rgba(133, 217, 255, 0.38);
+  box-shadow: 0px 0px 8px 4px rgba(133, 217, 255, 0.38);
+}
+
+input, select {
+  min-width: 100px;
+  margin: 10px 0;
+  height: 20px;
+  border-radius: 7px;
+}
+
+label {
+  text-align: left;
+}
+
+.add-button {
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  height: 35px;
+  border: 2px solid rgb(52, 164, 255);
+  border-radius: 10px;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  background-color: #fff;
+  transition: 0.5s all ease-out;
+}
+
+.add-button:hover {
+  background-color: rgb(52, 164, 255);
+  color: #fff;
+}
+
+.table_container {
+  margin: 20px auto 20px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.table-wrapper {
+  border: 2px solid rgb(52, 164, 255);
+  padding: 5px;
+  border-radius: 20px;
+  min-width: 600px;
+}
+
+.edit-form {
+  margin: auto auto;
+  display: flex;
+  flex-direction: column;
+}
